@@ -4,35 +4,22 @@
     <style>
         .myDiv {
             border: 1px solid #123123;
-            height: 100px;
-            width: 100px;
-            text-align: center;
-            line-height: 100px;
-            background-color: grey;
-            display: inline-block;
+            grid-gap: 5px;
+            grid-template-columns: 100px 100px 100px;
         }
     </style>
 </head>
 <body> 
-    <table>
-        <tr>
-            <div class="myDiv"> </div>
-            <div class="myDiv">O</div>
-            <div class="myDiv"> </div> 
-        </tr>
-        <tr>
-            <div class="myDiv">X</div>
-            <div class="myDiv">O</div>
-            <div class="myDiv">X</div>
-        </tr>
-        <tr>
-            <div class="myDiv"> </div>
-            <div class="myDiv">O</div>
-            <div class="myDiv"> </div>
-        </tr>
-    </table>
-    
-    
-    
+    <div class="myDiv">
+        <div> </div>
+        <div>O</div>
+        <div> </div> 
+        <div>X</div>
+        <div>O</div>
+        <div>X</div>
+        <div> </div>
+        <div>O</div>
+        <div> </div>
+    </div>
 </body>
 </html>
